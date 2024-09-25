@@ -1,6 +1,5 @@
 package com.resul.accountservice.auth;
 
-import com.resul.accountservice.dto.UserDto;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.io.Decoders;

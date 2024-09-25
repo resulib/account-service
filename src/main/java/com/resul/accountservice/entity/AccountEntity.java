@@ -25,8 +25,13 @@ public class AccountEntity {
     private Long id;
     private String accountNumber;
     private BigDecimal balance;
+
+    @Enumerated(EnumType.STRING)
     private CurrencyEnum currency;
+
+    @Enumerated(EnumType.STRING)
     private AccountStatusEnum accountStatus;
+
     private Long  userId;
 
     @CreationTimestamp
